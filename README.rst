@@ -3,6 +3,8 @@
 .. |conda-badge| image:: https://anaconda.org/conda-forge/python-rocksdb/badges/installer/conda.svg
    :target: https://anaconda.org/conda-forge/python-rocksdb
 
+This fork pins Cython below 3.0 in an attempt to solve a build problem in July 2023.
+
 Note
 =========
 The original pyrocksdb (https://pypi.python.org/pypi/pyrocksdb/0.4) has not been updated for long time. I update pyrocksdb to support the latest rocksdb. Please open issues in github if you have any problem.
